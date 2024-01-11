@@ -1,1 +1,48 @@
+STEP a:
+Taylan@DESKTOP-BAC4E7F MINGW64 ~
+$ git config --global user.name "Duygu Onder"
+
+Taylan@DESKTOP-BAC4E7F MINGW64 ~
+$ git config --global user.email "doodoo00.testing@gmail.com"
+
+Taylan@DESKTOP-BAC4E7F MINGW64 ~
+$ git config --global core.editor "Intellij"
+
+Taylan@DESKTOP-BAC4E7F MINGW64 ~
+$ git config --global --list
+user.name=Duygu Onder
+user.email=doodoo00.testing@gmail.com
+core.editor=Intellij
+
+Step b:
+Taylan@DESKTOP-BAC4E7F MINGW64 ~
+$ git clone https://github.com/Duyguonderr/SOFT2101-HW04.git
+Cloning into 'SOFT2101-HW04'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+$ ls -la SOFT2101-HW04/.git
+total 13
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 ./
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 ../
+-rw-r--r-- 1 Taylan 197121  21 Jan 11 21:27 HEAD
+-rw-r--r-- 1 Taylan 197121 307 Jan 11 21:27 config
+-rw-r--r-- 1 Taylan 197121  73 Jan 11 21:27 description
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 hooks/
+-rw-r--r-- 1 Taylan 197121 182 Jan 11 21:27 index
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 info/
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 logs/
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 objects/
+-rw-r--r-- 1 Taylan 197121 112 Jan 11 21:27 packed-refs
+drwxr-xr-x 1 Taylan 197121   0 Jan 11 21:27 refs/
+
+Step c:
+In Markdown, a link is created by enclosing the link text in square brackets, [Link text] , and then following it immediately with the URL in parentheses, (https://website-name.com) 
+
+Step d:
+
+Step e:
+
+
 
